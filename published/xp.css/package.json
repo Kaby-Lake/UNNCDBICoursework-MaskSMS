@@ -1,0 +1,79 @@
+{
+  "_from": "xp.css",
+  "_id": "xp.css@0.2.3",
+  "_inBundle": false,
+  "_integrity": "sha512-uKPuJNvv8cvGp0YFhNie/iE+/3BlB9OjCCvVd+EdWcm8XaBN3FBzTftUdiSGzKWLPRIb3/2efSDsmUTs+0SNiA==",
+  "_location": "/xp.css",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "xp.css",
+    "name": "xp.css",
+    "escapedName": "xp.css",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/xp.css/-/xp.css-0.2.3.tgz",
+  "_shasum": "53de0ba7bdd657aaae36cd70e46ba265d7c9d840",
+  "_spec": "xp.css",
+  "_where": "/Applications/MAMP/htdocs/web",
+  "author": {
+    "name": "Adam Hammad",
+    "email": "mail@adamham.dev"
+  },
+  "bugs": {
+    "url": "https://github.com/botoxparty/XP.css/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "A design system for building faithful recreations of old UIs",
+  "devDependencies": {
+    "chokidar": "^3.3.1",
+    "cssnano": "^4.1.10",
+    "dedent": "^0.7.0",
+    "ejs": "^3.0.2",
+    "gh-pages": "^2.2.0",
+    "glob": "^7.1.6",
+    "highlight.js": "^9.18.1",
+    "live-server": "^1.2.1",
+    "mkdirp": "^1.0.4",
+    "postcss-calc": "^7.0.2",
+    "postcss-copy": "^7.1.0",
+    "postcss-css-variables": "^0.14.0",
+    "postcss-import": "^12.0.1",
+    "postcss-inline": "^1.2.0",
+    "postcss-inline-svg": "^4.1.0",
+    "postcss-nested": "^4.2.1"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "homepage": "https://botoxparty.github.io/XP.css/",
+  "keywords": [
+    "css",
+    "windows98",
+    "windowsXP",
+    "gui"
+  ],
+  "license": "MIT",
+  "main": "dist/XP.css",
+  "name": "xp.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/botoxparty/XP.css.git"
+  },
+  "scripts": {
+    "build": "node build.js",
+    "deploy:docs": "npm run build && gh-pages -d dist",
+    "release": "npm run build && npm publish",
+    "start": "node server.js"
+  },
+  "version": "0.2.3"
+}
